@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+
+.head-title {
+  margin: 60px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.header {
+  z-index: 15;
+  font-size: 18px;
+  font-weight: 500;
+  position: fixed;
+
+  background-color: rgba(28, 28, 161, 0.452);
+}
+
+.telluride {
+  background-image: url("../IMG/AdobeStock_358592498_Editorial_Use_Only-1024x683.jpeg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 65vh;
+}
+.rocky {
+  background-image: url("../IMG/Rocky-Mountain-cr-NPS.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 65vh;
+}
+.rocky {
+  background-image: url("../IMG/Rocky-Mountain-cr-NPS.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 65vh;
+}
+.aspen {
+  background-image: url("../IMG/luxury-meets-5-star-service.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 65vh;
+}
+.breckenridge {
+  background-image: url("../IMG/grand-colorado-on-peak-8-breckenridge-winter-1600x800.jpeg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 65vh;
+}
+.vail {
+  background-image: url("../IMG/vail-resorts-gondola-one-winter_56e654c1-f0ae-5102-065b4b8186bc23a2.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 65vh;
+}
+.footer {
+  background-color: rgba(37, 37, 151, 0.452);
+}
+.card {
+  box-shadow: 10px 10px 30px #726d6d, -20px -20px 60px #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: rgba(37, 37, 151, 0.452);
+}
+.card-img-top:hover {
+  opacity: 0.5;
+  border-radius: 10px;
+}
+/* 
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    border-collapse: collapse;
+  }
+} */

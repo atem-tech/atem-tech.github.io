@@ -27,16 +27,7 @@ body {
   width: 100%;
   height: 65vh;
 }
-.rocky {
-  background-image: url("../IMG/Rocky-Mountain-cr-NPS.jpg");
 
-  background-repeat: no-repeat;
-
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 65vh;
-}
 .rocky {
   background-image: url("../IMG/Rocky-Mountain-cr-NPS.jpg");
 
@@ -93,10 +84,16 @@ body {
   opacity: 0.5;
   border-radius: 10px;
 }
-/* 
+
 @media screen and (max-width: 600px) {
   .card {
     width: 100%;
     border-collapse: collapse;
   }
-} */
+  .container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    align-items: center;
+  }
+}
